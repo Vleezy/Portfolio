@@ -1,0 +1,103 @@
+/*hero + content within*/
+#showcase{
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(hero_cookie.jpg) no-repeat center center/cover ; 
+    height: auto;
+    padding-top:110px;
+    padding-bottom: 80px;
+    display:flex;
+    flex-direction: column;
+
+}
+.showcase__transparency{
+    background-color: rgba(0, 0, 0, 0.089);
+    height: 30%;
+}
+.showcase__transparency--second{
+    background-color: rgba(0, 0, 0, 0.089);
+}
+.showcase__title--description{
+    color:white;
+    text-align: center;
+    display:flex;
+    justify-content: center;
+    align-items:flex-start;
+    padding-bottom:30px;
+    font-family: cursive;
+}
+
+/*Button on hero home page*/
+.showcase__btn{
+    width:100%;
+    display:flex;
+    justify-content:center;
+    margin-bottom:30px;
+}
+.showcase__btn--home{
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    text-align:center;
+    font-weight: bold;
+    color: white ;
+    background:#A0522D;
+    padding: 13px 20px;
+    cursor: pointer;
+    border-radius: 100px;
+    border :1px solid rgb(172, 87, 47);
+    margin:auto auto;
+    
+}
+/*title per page*/
+#showcase__title--home, .showcase__title--product, .showcase__title--contact{
+    text-align: center;
+    justify-content: center;
+    align-items:center;
+    width: 100%;
+    height:40px;
+    color:white;
+    font-size:60px; 
+}
+.text__decoration{
+    color:#A0522D;
+    }
+    
+
+
+
+    @media only screen and (min-width: 800px) {
+        /*showcase + content*/
+         #showcase {
+             background: url(hero_cookie.jpg) no-repeat center center/cover ;
+             height: 50%;
+             padding-top:245px;
+             padding-bottom: 245px;
+           }
+           .showcase__transparency{
+            background-color: rgba(0, 0, 0, 0.089);
+        }
+           .showcase__title--description{
+               font-size:20px;
+               
+           }
+         .showcase__second{
+             height: 50%;
+             padding-top:245px;
+             padding-bottom: 245px;
+             text-align:center;
+             display:flex;
+             align-items: center;
+             justify-content: center;
+             max-width: auto;
+         }
+         .showcase__btn--home{
+             height:50px;
+             width:15%;
+             }
+             #showcase__title--sec{
+                 font-size: 40px;
+                 
+             }
+           #showcase__title--home, .showcase__title--product, .showcase__title--contact{
+               margin:20px;
+           }
+    }

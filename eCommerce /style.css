@@ -1,0 +1,731 @@
+/* $linear-colors:linear-gradient(315deg, #772f1a 0%, #f2a65a 74%);*/
+/* Partials Scss*/
+/* website logo*/
+.logo {
+  float: left;
+  margin-top: auto;
+  background: #f2a65a;
+  height: 60px;
+  max-width: 1100px;
+  padding: 0 20px;
+  border-bottom: 1px solid #A0522D;
+}
+
+/*navbar*/
+#navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-image: linear-gradient(315deg, #772f1a 0%, #f2a65a 74%);
+  height: 60px;
+  list-style-type: none;
+  margin: auto;
+  max-width: 100%;
+  padding: 0 20px;
+  border-bottom: 1px solid #A0522D;
+  font-size: 20px;
+}
+
+.navigation__area {
+  list-style-type: none;
+  display: inline-block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  color: #FFDEAD;
+}
+
+.active {
+  display: block;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+nav li {
+  float: right;
+}
+
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 18px 80px;
+  text-decoration: none;
+}
+
+nav li a.active {
+  color: white;
+  background-color: #A0522D;
+}
+
+@media only screen and (max-width: 800px) {
+  nav li a {
+    padding: 18px 35px;
+  }
+  #navigation {
+    font-size: 15px;
+  }
+}
+
+/*hero + content within*/
+#showcase {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.1)), to(rgba(0, 0, 0, 0.1))), url(hero_cookie.jpg) no-repeat center center/cover;
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(hero_cookie.jpg) no-repeat center center/cover;
+  height: auto;
+  padding-top: 110px;
+  padding-bottom: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.showcase__transparency {
+  background-color: rgba(0, 0, 0, 0.089);
+  height: 30%;
+}
+
+.showcase__transparency--second {
+  background-color: rgba(0, 0, 0, 0.089);
+}
+
+.showcase__title--description {
+  color: white;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding-bottom: 30px;
+  font-family: cursive;
+}
+
+/*Button on hero home page*/
+.showcase__btn {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 30px;
+}
+
+.showcase__btn--home {
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  background: #A0522D;
+  padding: 13px 20px;
+  cursor: pointer;
+  border-radius: 100px;
+  border: 1px solid #ac572f;
+  margin: auto auto;
+}
+
+/*title per page*/
+#showcase__title--home, .showcase__title--product, .showcase__title--contact {
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 40px;
+  color: white;
+  font-size: 60px;
+}
+
+.text__decoration {
+  color: #A0522D;
+}
+
+@media only screen and (min-width: 800px) {
+  /*showcase + content*/
+  #showcase {
+    background: url(hero_cookie.jpg) no-repeat center center/cover;
+    height: 50%;
+    padding-top: 245px;
+    padding-bottom: 245px;
+  }
+  .showcase__transparency {
+    background-color: rgba(0, 0, 0, 0.089);
+  }
+  .showcase__title--description {
+    font-size: 20px;
+  }
+  .showcase__second {
+    height: 50%;
+    padding-top: 245px;
+    padding-bottom: 245px;
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    max-width: auto;
+  }
+  .showcase__btn--home {
+    height: 50px;
+    width: 15%;
+  }
+  #showcase__title--sec {
+    font-size: 40px;
+  }
+  #showcase__title--home, .showcase__title--product, .showcase__title--contact {
+    margin: 20px;
+  }
+}
+
+/*slide show images + Js*/
+.slide__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.slide__img {
+  width: 100%;
+  height: 500px;
+  -o-object-fit: auto;
+     object-fit: auto;
+}
+
+/*Second Slide*/
+.slide__container--2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.slide__img--2 {
+  width: 100%;
+  height: 500px;
+  -o-object-fit: auto;
+     object-fit: auto;
+}
+
+@media only screen and (min-width: 800px) {
+  /*slide + Js + content*/
+  .slide--img, .slide__img2 {
+    height: 50%;
+    padding-top: 500px;
+    padding-bottom: 40px;
+  }
+}
+
+/*Responsive css flexbox*/
+h5, h6 {
+  font-size: 20px;
+}
+
+h5 {
+  color: #A0522D;
+  font-family: cursive;
+}
+
+h6 {
+  color: white;
+}
+
+.img__resize {
+  width: 400px;
+  height: 300px;
+}
+
+.product__description {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: cursive;
+}
+
+.product__filter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: white;
+  padding: 10px;
+  font-family: cursive;
+}
+
+.collection__sort {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+/*Expands to flex container*/
+.product__filter h1 {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  color: white;
+}
+
+/*  .sort {
+     display: flex;
+   }
+  .collection__sort {
+    display: flex;
+    flex-direction: column;
+  }  */
+/*Flex Container for the cards allows for horizontal in new rows*/
+.products {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 10px;
+}
+
+/*flex-grow helps to fill my space trying to make 5 per row */
+.product__card {
+  padding: 2%;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  /*initial length of flexible item*/
+  -ms-flex-preferred-size: 16%;
+      flex-basis: 16%;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 1px;
+  /* display: flex;  so child elements can use flexbox stuff too! */
+}
+
+/*for images to fit within*/
+.product__image img {
+  max-width: 280px;
+  margin: auto;
+  text-align: center;
+  border-radius: 10%;
+}
+
+/* aligning desc to bottom*/
+.product__info {
+  margin-top: auto;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+}
+
+/* for when there are less cards*/
+.products .product__card:first-child,
+.products .product__card:nth-child(2) {
+  -webkit-box-flex: 2;
+      -ms-flex: 2 46%;
+          flex: 2 46%;
+}
+
+@media (max-width: 600px) {
+  /* less cards per row / making a column */
+  .product__card {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 46%;
+            flex: 1 46%;
+  }
+  .product__image img {
+    max-width: 400px;
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  .product__card {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 46%;
+            flex: 1 46%;
+  }
+}
+
+/* Product Css--JS*/
+.container {
+  overflow: hidden;
+}
+
+.filter {
+  display: none;
+  padding: 2%;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  -ms-flex-preferred-size: 16%;
+      flex-basis: 16%;
+  text-align: center;
+  background-color: #25180fb2;
+  border-radius: 1px;
+}
+
+.show {
+  display: block;
+}
+
+.btn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  /* background-color: #f1f1f1; */
+  color: white;
+  background-color: #A0522D;
+  cursor: pointer;
+  float: left;
+}
+
+.btn:hover {
+  background-color: #ac572f;
+}
+
+.btn:active {
+  background-color: #A0522D;
+  color: white;
+}
+
+.product__text {
+  font-size: 30px;
+  margin-top: 5px;
+}
+
+.filter__text {
+  font-size: 26px;
+  float: left;
+  margin-right: 10px;
+  margin-top: 5px;
+}
+
+.product__card:hover {
+  background-color: rgba(255, 255, 255, 0.137);
+  color: white;
+}
+
+@media only screen and (max-width: 800px) {
+  .filter__text {
+    float: none;
+    font-size: 20px;
+    text-align: center;
+  }
+  .btn {
+    padding: 10px 3.5px;
+    color: white;
+  }
+  .product__text {
+    font-size: 30px;
+  }
+}
+
+/*Contact Form*/
+/*Form description*/
+/*container aligning form*/
+#form__alignment {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 80%;
+  margin: auto;
+}
+
+/*container for inputs*/
+.form__alignment--container {
+  text-align: center;
+  color: white;
+  width: 70%;
+}
+
+/*Form instruction line*/
+.form__instruction {
+  text-align: center;
+  font-family: cursive;
+  color: white;
+  margin-bottom: 1.5%;
+  margin-top: 1%;
+}
+
+.form__instruction--des {
+  display: block;
+  text-align: center;
+  font-family: cursive;
+  color: white;
+  margin: 1.5%;
+}
+
+/*Form Styling*/
+#contact__form {
+  width: 100%;
+}
+
+#contact__form .form__group {
+  margin-bottom: 20px;
+}
+
+#contact__form label {
+  /* display:block;*/
+  margin-bottom: 5px;
+}
+
+#contact__form input,
+#contact__form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 5px #772f1a double;
+  -webkit-box-shadow: 10px 10px 5px  #A0522D;
+          box-shadow: 10px 10px 5px  #A0522D;
+  background-color: rgba(255, 255, 255, 0.705);
+  border-radius: 25px;
+}
+
+#contact__form textarea {
+  height: 200px;
+}
+
+#contact__form input:focus
+#contact__form textarea:focus {
+  outline: none;
+  border-color: #A0522D;
+}
+
+/*Form button*/
+.form__btn {
+  border-radius: 100px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #772f1a;
+  border: 5px #A0522D double;
+  color: white;
+  margin: 10px 0px;
+  padding: 15px 32px;
+  float: right;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.form__btn:hover {
+  background-color: rgba(255, 255, 255, 0.705);
+  color: #772f1a;
+}
+
+/*footer + content*/
+#footer__area {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #0e0906;
+  padding: 0px 20px;
+  bottom: 0px;
+  width: 100%;
+  height: 100px;
+  margin: 0 auto;
+}
+
+.footer__area--icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+}
+
+.footer__area--copyright {
+  display: block;
+  color: #f2a65a;
+}
+
+.icon__facebook, .icon__youtube, .icon__instagram, .icon__twitter {
+  height: 60px;
+  width: 60px;
+}
+
+.icon__facebook:hover, .icon__youtube:hover, .icon__instagram:hover, .icon__twitter:hover {
+  color: #f2a65a;
+  -webkit-box-shadow: 0 0 5px #f2a65a, 0 0 10px #f2a65a;
+          box-shadow: 0 0 5px #f2a65a, 0 0 10px #f2a65a;
+}
+
+footer ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+footer li {
+  float: right;
+}
+
+footer li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px 60px;
+  text-decoration: none;
+}
+
+footer li a.active {
+  color: white;
+  background-color: #A0522D;
+}
+
+@media only screen and (min-width: 800px) {
+  /*footer + content*/
+  .footer__area {
+    width: 100px;
+  }
+  /*footer + content*/
+  .footer__area--icons {
+    margin: 0px 20px 0px 10px;
+  }
+  footer li a {
+    padding: 10px 20px;
+    margin: 2px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .icon__facebook, .icon__youtube, .icon__instagram, .icon__twitter {
+    height: 30px;
+    width: 30px;
+  }
+  .footer__area--resize {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  footer li a {
+    padding: 10px 20px;
+    margin: 2px;
+  }
+  #navigation {
+    font-size: 15px;
+  }
+  .footer__area--copyright {
+    text-align: center;
+  }
+}
+
+/* Global*/
+* {
+  margin: 0px;
+  padding: 0px;
+  /*width + height of element includes border/padding*/
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  /*Imported font family*/
+  font-family: 'Spicy Rice', cursive;
+  background-image: linear-gradient(315deg, #772f1a 0%, #f2a65a 74%);
+}
+
+body {
+  line-height: 1.5em;
+}
+
+/* second container*/
+.showcase__second {
+  /*Image 2*/
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.1)), to(rgba(0, 0, 0, 0.1))), url(happy_cookie.jpg) no-repeat center center/cover;
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(happy_cookie.jpg) no-repeat center center/cover;
+  color: white;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  max-width: 100%;
+}
+
+.body__container {
+  background: linear-gradient(315deg, #772f1a 0%, #f2a65a 74%);
+  height: 200px;
+}
+
+.body__container--description {
+  color: white;
+  text-align: center;
+}
+
+.body__title {
+  color: #772f1a;
+  text-align: center;
+}
+
+/*media queries*/
+@media only screen and (max-width: 800px) {
+  /*showcase 2 + content*/
+  .showcase__second {
+    width: 100%;
+    height: 500px;
+  }
+}
+/*# sourceMappingURL=style.css.map */

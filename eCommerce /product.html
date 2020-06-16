@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="Description" content="The best cookie market on the web!">
+  <meta name="keywords" content="cookie,cookies,shop,brown,buy">
+  <link href="https://fonts.googleapis.com/css?family=Spicy+Rice&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>Products</title>
+</head>
+
+<body>
+
+  <!-- logo section -->
+  <a href="home.html"><img class="logo" src="cookies.png" alt="Website Logo" /></a>
+  <header>
+    <!-- Navigator Bar -->
+    <nav id="navigation">
+      <ul class="navigation__area">
+        <li><a href="home.html">Home</a></li>
+        <li><a class="active" href="product.html">Product</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero + content  -->
+  <div id="showcase">
+    <h1 class="showcase__title--product"><span class="text__decoration">Products</span> Page</h1>
+  </div>
+
+  <!--Products + content-->
+
+  <!-- flex container -->
+
+  <section class="product__filter">
+    <h2 class="product__text">Cookie Products</h2>
+
+    <!-- <div class="sort"> -->
+
+    <!-- filter-->
+    <!-- <div class="collection__sort">
+        <label>Filter by:</label> -->
+    <!-- defines selection of items -->
+    <!-- <select>
+          <option value="All Cookies">All Cookies</option>
+          <option value="Best Sellers">Best Sellers</option>
+          <option value="Special">Specials</option>
+        </select>
+      </div> -->
+
+      <!--Filter Buttons-->
+    <!-- <div class="collection__sort"> -->
+
+      <!--Buttons For Filter + JS-->
+      <div id="myBtnContainer">
+        <p class="filter__text">Filter:</p>
+        <button class="btn " onclick="filterSelection('all')"> Show all</button>
+        <button class="btn" onclick="filterSelection('high')"> High</button>
+        <button class="btn" onclick="filterSelection('low')"> Low</button>
+        <button class="btn" onclick="filterSelection('chocolate')"> Chocolate</button>
+        <button class="btn" onclick="filterSelection('other')"> Other</button>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <!--Products Cards-->
+  <div class="container">
+    <section class="products">
+
+      <div class="filter chocolate">
+        <div class="product__card">
+          <div class="product__image">
+            <img class="img__resize" src="product_cookies/cookie_1.jpg" alt="Choco Star Cookies">
+          </div>
+          <div class="product__info">
+            <h5>Choco Star Cookies</h5>
+            <h6>$5.75 Per Pack</h6>
+            <p class="product__description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat, velit!</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="filter other">
+        <div class="product__card">
+          <div class="product__image">
+            <img class="img__resize" src="product_cookies/cookie_2.jpg" alt="Sugar Cookies">
+          </div>
+          <div class="product__info">
+            <h5>Sugar Cookies</h5>
+            <h6>$5.50 Per Pack</h6>
+            <p class="product__description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat, velit!</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="filter other">
+        <div class="product__card">
+          <div class="product__image">
+            <img class="img__resize" src="product_cookies/cookie_3.jpg" alt="Red Dot Cookies">
+          </div>
+          <div class="product__info">
+            <h5>Red Dot Cookies</h5>
+            <h6>$5.00 Per Pack</h6>
+            <p class="product__description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat, velit!</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="filter chocolate">
+        <div class="product__card">
+          <div class="product__image">
+            <img class="img__resize" src="product_cookies/cookie_4.jpg" alt="Chocolate Chip Cookies">
+          </div>
+          <div class="product__info">
+            <h5>Chocolate Chip Cookies</h5>
+            <h6>$4.00 Per Pack</h6>
+            <p class="product__description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat, velit!</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="filter other">
+        <div class="product__card">
+          <div class="product__image">
+            <img class="img__resize" src="product_cookies/cookie_5.jpg" alt="Christmas Cookies">
+          </div>
+          <div class="product__info">
+            <h5>Christmas Cookies</h5>
+            <h6>$5.25 Per Pack</h6>
+            <p class="product__description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat, velit!</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="filter high">
+        <div class="product__card">
+          <div class="product__image">
+            <img class="img__resize" src="product_cookies/cookie_6.jpg" alt="Colorful Cookies">
+          </div>
+          <div class="product__info">
+            <h5>Colorful Cookies</h5>
+            <h6>$6.75 Per Pack</h6>
+            <p class="product__description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat, velit!</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="filter chocolate">
+        <div class="product__card">
+          <div class="product__image">
+            <img class="img__resize" src="product_cookies/cookie_7.jpg" alt="Christmas Tree Cookies">
+          </div>
+          <div class="product__info">
+            <h5>Christmas Tree Cookies</h5>
+            <h6>$5.00 Per Pack</h6>
+            <p class="product__description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat, velit!</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="filter low">
+        <div class="product__card">
+          <div class="product__image">
+            <img class="img__resize" src="product_cookies/cookie_8.jpg" alt="Easter Cookies">
+          </div>
+          <div class="product__info">
+            <h5>Easter Cookies</h5>
+            <h6>$4.00 Per Pack</h6>
+            <p class="product__description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat, velit!</p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="filter chocolate">
+        <div class="product__card">
+          <div class="product__image">
+            <img class="img__resize" src="product_cookies/cookie_9.jpg" alt="Heart Cookie">
+          </div>
+          <div class="product__info">
+            <h5>Heart Cookies</h5>
+            <h6>$5.75 Per Pack</h6>
+            <p class="product__description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat, velit!</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="filter chocolate">
+        <div class="product__card">
+          <div class="product__image">
+            <img class="img__resize" src="product_cookies/cookie_10.jpg" alt="Emoji Cookie">
+          </div>
+          <div class="product__info">
+            <h5>Emoji Cookies</h5>
+            <h6>$5.99 Per Pack</h6>
+            <p class="product__description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat, velit!</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="filter chocolate">
+        <div class="product__card">
+          <div class="product__image">
+            <img class="img__resize" src="product_cookies/cookie_11.jpg" alt="Animal Cookie">
+          </div>
+          <div class="product__info">
+            <h5>Animal Cookies</h5>
+            <h6>$5.50 Per Pack</h6>
+            <p class="product__description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat, velit!</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="filter chocolate">
+        <div class="product__card">
+          <div class="product__image">
+            <img class="img__resize" src="product_cookies/cookie_12.jpg" alt="Cripsy Cookie">
+          </div>
+          <div class="product__info">
+            <h5>Crispy Cookies</h5>
+            <h6>$5.00 Per Pack</h6>
+            <p class="product__description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat, velit!</p>
+          </div>
+        </div>
+      </div>
+
+
+    </section>
+  </div>
+
+
+  <!--JS Scrip For Product Cards-->
+
+  <!--Element Filter-->
+  <script>
+    filterSelection("all")
+    function filterSelection(c) {
+      var x, i;
+      x = document.getElementsByClassName("filter");
+      if (c == "all") c = "";
+      // Add the "show" class (display:block) to the filtered elements, and remove the "show" class from the elements that are not selected
+      for (i = 0; i < x.length; i++) {
+        removeClass(x[i], "show");
+        if (x[i].className.indexOf(c) > -1) addClass(x[i], "show");
+      }
+    }
+    /* Show filtered elements*/
+    function addClass(element, name) {
+      var i, arr1, arr2;
+      arr1 = element.className.split(" ");
+      arr2 = name.split(" ");
+      for (i = 0; i < arr2.length; i++) {
+        if (arr1.indexOf(arr2[i]) == -1) {
+          element.className += " " + arr2[i];
+        }
+      }
+    }
+    /* Hide elements that are not selected*/  
+    function removeClass(element, name) {
+      var i, arr1, arr2;
+      arr1 = element.className.split(" ");
+      arr2 = name.split(" ");
+      for (i = 0; i < arr2.length; i++) {
+        while (arr1.indexOf(arr2[i]) > -1) {
+          arr1.splice(arr1.indexOf(arr2[i]), 1);
+        }
+      }
+      element.className = arr1.join(" ");
+    }
+
+    /*Add active class to the current control button (highlight it)*/
+    var btnContainer = document.getElementById("myBtnContainer");
+    var btns = btnContainer.getElementsByClassName("btn");
+    for (var i = 0; i < btns.length; i++) {
+      btns[i].addEventListener("click", function () {
+        var current = document.getElementsByClassName(" active");
+        current[0].className = current[0].className.replace("active", "");
+        this.className += " active";
+      });
+    }
+  </script>
+
+
+
+
+  <!--Footer-->
+  <footer id="footer__area">
+    <!--Social Media Icons-->
+    <nav>
+      <ul class="footer__area--icons">
+        <li><a href="http://www.facebook.com" target="_blank" rel="noopener"><img class="icon__facebook"
+              src="facebook.png" alt="Facebook" /></a></li>
+
+        <li><a href="http://www.twitter.com" target="_blank" rel="noopener"><img class="icon__twitter" src="twitter.png"
+              alt="Twitter" /></a></li>
+
+        <li><a href="http://www.youtube.com" target="_blank" rel="noopener"><img class="icon__youtube" src="youtube.png"
+              alt="Youtube" /></a></li>
+
+        <li><a href="http://www.instagram.com" target="_blank" rel="noopener"><img class="icon__instagram"
+              src="instagram.png" alt="Instagram" /></a></li>
+      </ul>
+    </nav>
+
+    <!-- copyright -->
+    <div class="footer__area--copyright">
+      <p> 2020 &copy; | R2H eCommerce Project </p>
+    </div>
+  </footer>
+
+  <!-- linking Js -->
+  <script src="script.js"></script>
+</body>
+
+</html>

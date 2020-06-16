@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="Description" content="Contacts page to leave the shop some questions, comments or concerns.">
+  <meta name="keywords" content="cookie,cookies,shop,brown,buy, question, comments, concerns">
+  <link href="https://fonts.googleapis.com/css?family=Spicy+Rice&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>Contact Page</title>
+</head>
+
+<body>
+  <!--Logo Section-->
+  <a href="home.html"><img class="logo" src="cookies.png" alt="Website Logo" /></a>
+  <header>
+    <!--Navigator Bar-->
+    <nav id="navigation">
+      <ul class="navigation__area">
+        <li><a href="home.html">Home</a></li>
+        <li><a href="product.html">Product</a></li>
+        <li><a class="active" href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!--Hero + Content-->
+  <div id="showcase">
+    <h1 class=showcase__title--contact> <span class="text__decoration">Contact</span> US</h1>
+  </div>
+
+
+  <!--Form Start-->
+  <div id="contact__form">
+    <div class="form__instruction">
+      <p class="form__instruction--desc">Please fill out the form below to contact us</p>
+    </div>
+
+    <!--Link to JS-->
+    <form name="FormJS" action="#" onsubmit="return VForm()" method="post">
+      <div id="form__alignment">
+        <div class="form__alignment--container">
+          <!--Name Input-->
+          <p>Name: <input type="text" name="Name" placeholder="Enter your name"> </p><br>
+
+          <!--Email Input-->
+          <p>E-mail Address: <input type="text" name="Email" placeholder="Enter your email"> </p><br>
+
+          <!--Comment Input-->
+          <p>Comments: <textarea cols="55" name="Comment" placeholder="Leave your comments here.">  </textarea></p>
+          <button value="send" type="submit" class="form__btn" name="Submit">Submit</button>
+        </div>
+      </div>
+    </form>
+  </div>
+
+
+
+
+
+  <!--Footer-->
+  <footer id="footer__area">
+    <!--Social Media Icons-->
+    <nav>
+      <div class="footer__area--resize">
+        <ul class="footer__area--icons">
+          <li><a href="http://www.facebook.com" target="_blank" rel="noopener"><img class="icon__facebook"
+                src="facebook.png" alt="Facebook" /></a></li>
+
+          <li><a href="http://www.twitter.com" target="_blank" rel="noopener"><img class="icon__twitter"
+                src="twitter.png" alt="Twitter" /></a></li>
+
+          <li><a href="http://www.youtube.com" target="_blank" rel="noopener"><img class="icon__youtube"
+                src="youtube.png" alt="Youtube" /></a></li>
+
+          <li><a href="http://www.instagram.com" target="_blank" rel="noopener"><img class="icon__instagram"
+                src="instagram.png" alt="Instagram" /></a></li>
+        </ul>
+      </div>
+    </nav>
+    <!-- Copright Section-->
+    <div class="footer__area--copyright">
+      <p> 2020 &copy; | R2H eCommerce Project </p>
+    </div>
+  </footer>
+
+
+  <script src=script.js></script>
+</body>
+
+
+</html>

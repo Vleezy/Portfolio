@@ -1,0 +1,33 @@
+/*slide show images + Js*/
+.slide__container{
+    display:flex;
+    justify-content: center;
+
+}
+
+.slide__img{
+    width:100%;
+    height: 500px;
+        object-fit: auto;
+}
+
+/*Second Slide*/
+.slide__container--2{
+    display:flex;
+    justify-content: center;
+}
+
+.slide__img--2{
+    width:100%;
+    height: 500px;
+        object-fit: auto;
+}
+@media only screen and (min-width: 800px) {
+   
+    /*slide + Js + content*/
+    .slide--img,.slide__img--2{
+      height: 50%;
+      padding-top:500px;
+      padding-bottom: 40px;
+    }
+}
