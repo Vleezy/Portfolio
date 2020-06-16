@@ -4,13 +4,13 @@
   <img src="https://github.com/Vleezy/Portfolio/blob/master/logo.png" width="500" height="300"/></p>
 
 # GitHub Assignments
-<p align="center">
+
   [My Repository](https://github.com/Vleezy) 
   <br/>
   [Portfolio Projects](https://github.com/Vleezy/Portfolio) 
   <br/>
   [R2H Repository](https://github.com/Code-7-Classroom/weeklychallenges2020-Vleezy) 
-</p>
+
 
 ```json
 {
