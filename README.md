@@ -4,9 +4,11 @@
   <img src="https://github.com/Vleezy/Portfolio/blob/master/logo.png" width="500" height="300"/></p>
 
 # GitHub Assignments
-  [My Repository](https://github.com/Code-7-Classroom/weeklychallenges2020-Vleezy) - Link to my repository.
-  <br>
+  [My Repository](https://github.com/Vleezy) - Link to my repository.
+  <br/>
   [Portfolio Projects](https://github.com/Vleezy/Portfolio) - Current repository.
+  <br/>
+  [R2H Repository](https://github.com/Code-7-Classroom/weeklychallenges2020-Vleezy) - R2H Submission repository.
 
 ```json
 {
