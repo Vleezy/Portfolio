@@ -1,4 +1,4 @@
-![Vlad Logo](https://github.com/Vleezy/Portfolio)
+![Vlad Logo](https://github.com/Vleezy/Portfolio/blob/master/logo.png)
 # GitHub Assignments
   [My Repository](https://github.com/Code-7-Classroom/weeklychallenges2020-Vleezy) - Link to my repository.
   [Portfolio Projects](https://github.com/Vleezy/Portfolio) - Current repository.
