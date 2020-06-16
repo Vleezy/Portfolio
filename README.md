@@ -2,7 +2,7 @@
 
 <p align="center">
   <img src="https://github.com/Vleezy/Portfolio/blob/master/logo.png"/></p>
-<p align="center">
+
 # GitHub Assignments
   [My Repository](https://github.com/Code-7-Classroom/weeklychallenges2020-Vleezy) - Link to my repository.
   [Portfolio Projects](https://github.com/Vleezy/Portfolio) - Current repository.
@@ -30,4 +30,4 @@ These are some of the projects I have been working on during the course and this
 * [NodeJs](https://www.w3schools.com/nodejs/) - Node.JS
 * [ReactJs](https://www.w3schools.com/REACT/) - REACT.JS
 * [MySQL](https://www.w3schools.com/sql/) - Structured Query Language
-</p>
+
