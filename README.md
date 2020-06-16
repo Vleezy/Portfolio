@@ -1,6 +1,7 @@
-![Vlad Logo](https://github.com/Code-7-Classroom/weeklychallenges2020-Vleezy/blob/master/logo-readme.png)
+![Vlad Logo](https://github.com/Vleezy/Portfolio)
 # GitHub Assignments
   [My Repository](https://github.com/Code-7-Classroom/weeklychallenges2020-Vleezy) - Link to my repository.
+  [Portfolio Projects](https://github.com/Vleezy/Portfolio) - Current repository.
 
 ```json
 {
@@ -11,7 +12,7 @@
 
 ## Getting Started
 
-These are some of the projects I have been working on during the course.
+These are some of the projects I have been working on during the course and this is my portfolio repository.
 - [x] Continuing to study, practice, and learn everyday!
 
 
