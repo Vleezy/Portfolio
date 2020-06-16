@@ -5,6 +5,7 @@
 
 # GitHub Assignments
   [My Repository](https://github.com/Code-7-Classroom/weeklychallenges2020-Vleezy) - Link to my repository.
+  <br>
   [Portfolio Projects](https://github.com/Vleezy/Portfolio) - Current repository.
 
 ```json
