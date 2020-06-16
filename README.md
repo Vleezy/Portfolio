@@ -1,8 +1,7 @@
-![Vlad Logo](https://github.com/Vleezy/Portfolio/blob/master/logo.png)
-
+<!-- ![Vlad Logo](https://github.com/Vleezy/Portfolio/blob/master/logo.png) -->
 
 <p align="center">
-  <img src="https://github.com/Vleezy/Portfolio/blob/master/logo.png" width="700px" height="500px"/></p>
+  <img src="https://github.com/Vleezy/Portfolio/blob/master/logo.png" width="700px" height="700px"/></p>
 
 # GitHub Assignments
   [My Repository](https://github.com/Code-7-Classroom/weeklychallenges2020-Vleezy) - Link to my repository.
