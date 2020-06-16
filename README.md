@@ -1,4 +1,9 @@
 ![Vlad Logo](https://github.com/Vleezy/Portfolio/blob/master/logo.png)
+
+
+<p align="center">
+  <img src="https://github.com/Vleezy/Portfolio/blob/master/logo.png" width="700px" height="300px"/></p>
+
 # GitHub Assignments
   [My Repository](https://github.com/Code-7-Classroom/weeklychallenges2020-Vleezy) - Link to my repository.
   [Portfolio Projects](https://github.com/Vleezy/Portfolio) - Current repository.
