@@ -24,5 +24,5 @@ These are some of the projects I have been working on during the course.
 * [JS](https://www.w3schools.com/js/) - Javascript
 * [NodeJs](https://www.w3schools.com/nodejs/) - Node.JS
 * [ReactJs](https://www.w3schools.com/REACT/) - REACT.JS
-* [MySQL] (https://www.w3schools.com/sql/) - SQL
+* [MySQL](https://www.w3schools.com/sql/) - Structured Query Language
 
