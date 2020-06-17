@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import Square from '../Square/Square';
-import r2h from '../../img/r2h.png'
-import fellowship from '../../img/fellowships.png'
+// import r2h from '../../img/r2h.png'
+// import fellowship from '../../img/fellowships.png'
 import RestButton from '../ResetButton/ResetButton'
 
 const Board = () => {
